@@ -3,11 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Discoteca</title>
+    <title>Discoteca - Iniciar</title>
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <p>Olá mundo!</p>
+    <!-- Start section start -->
+    <section class="container container-start">
+      <!-- First column -->
+      <div class="column-1">
+        <div class="user">
+          <!-- User profile -->
+          <button class="component hover-fade-animation">
+            <img src="./images/user.svg" alt="Fazer login ou cadastrar" />
+          </button>
+
+          <!-- User name -->
+          <p class="user-name font-medium font-20">Nome do jogador</p>
+        </div>
+
+        <!-- See scoreboard button -->
+        <button class="component hover-fade-animation">
+          <img src="./images/trophy.svg" alt="Acessar placar de jogadores" />
+        </button>
+      </div>
+
+      <!-- Secound column -->
+      <div class="column-2">
+        <!-- Div that help us aling the button in the middle -->
+        <div class="column-2-aligner"></div>
+        <!-- Start button -->
+        <button
+          href="#"
+          class="component start font-medium font-40 colorful-text-animation hover-fade-animation"
+        >
+          <span class="">Iniciar</span>
+        </button>
+
+        <!-- Select difficulty buttons -->
+        <div class="difficulties">
+          <button
+            id="easy-difficulty"
+            class="difficulty-level font-medium font-16 component hover-fade-animation"
+          >
+            Fácil
+          </button>
+          <button
+            id="normal-difficulty"
+            class="difficulty-level font-medium font-16 component hover-fade-animation button-select"
+          >
+            Normal
+          </button>
+          <button
+            id="hard-difficulty"
+            class="difficulty-level font-medium font-16 component hover-fade-animation"
+          >
+            Díficl
+          </button>
+        </div>
+      </div>
+
+      <!-- Third column -->
+      <div class="column-3">
+        <!-- User's maximum score -->
+        <p class="max-user-scores font-medium font-20">Máximo de pontos</p>
+      </div>
+    </section>
+    <!-- Start section end -->
     <script src="./js/app.js"></script>
   </body>
 </html>

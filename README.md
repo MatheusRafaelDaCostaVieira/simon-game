@@ -8,8 +8,6 @@ Esse projeto é um jogo criado pelos alunos Claisson Luan da Cruz, Rafael Batist
 
 O jogo do Simon é um brinquedo eletrônico clássico que desafia a memória. Lançado em 1978, apresenta quatro cores (vermelho, azul, amarelo e verde) em um padrão circular. O objetivo é repetir corretamente uma sequência crescente de cores e sons. A dificuldade aumenta a cada rodada bem-sucedida. Um erro encerra o jogo, mantendo-o desafiador.
 
----
-
 # Tecnologias
 
 ## Front-end
@@ -26,5 +24,3 @@ O jogo do Simon é um brinquedo eletrônico clássico que desafia a memória. La
 ## Database
 
 - Mongo DB
-
----
